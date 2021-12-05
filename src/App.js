@@ -44,7 +44,7 @@ function App() {
           <Route path ="/kkk"  element={<SetTimer></SetTimer>} > </Route>
           <Route path ="/kkkk"  element={<Paginationeg></Paginationeg>} > </Route>
           <Route path ="/kkkkk"  element={<PaginationLoadMore></PaginationLoadMore>} > </Route>
-          <Route path ="/form/:id"  element={<UserForm db={db}></UserForm>} > </Route>
+          <Route path ="/form"  element={<UserForm db={db}></UserForm>} > </Route>
           <Route path ="/forma"  element={<UserDataDiaplay db={db}></UserDataDiaplay>} > </Route>
         </Routes>
       </Router>

@@ -27,7 +27,7 @@ export default function UserDataDiaplay(props) {
        return docu
       }
       let  updatingItem = (item) =>{
-        let k=item.data()
+        
       }
      let  deletingItem = async(id) =>{
        
